@@ -1,0 +1,60 @@
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #333;
+    }
+    .navbar-brand {
+      color: #fff;
+    }
+    .navbar-nav .nav-link {
+      color: #fff;
+    }
+    .jumbotron {
+      background-image: url('https://images.unsplash.com/photo-1524169358666-79f22534bc6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80'); 
+      background-size: cover;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    #projects {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+    .card {
+      border: none;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    #skills {
+      padding: 50px 0;
+    }
+   
+    #contact {
+        background-color: #f8f9fa;
+        padding: 50px 0;
+      }
+      .contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .form-control {
+        border-radius: 0;
+      }
+      #footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 90px;
+      }
+      .social-icons {
+        font-size: 24px;
+        margin: 0 10px;
+      }
+      
